@@ -40,23 +40,23 @@ var y = x.join(" ")
 For example : if first porsion is a (type: string) then it will concate everything as a string.*/
 
 var x = [ 'anik', 'hasan', 'ahmed'];
-var y = [ 'runa', 'my', 'love'];
+var y = [ 'runa', 'my', 'cousin'];
 
 var z = x.concat(y);
 
 console.log(z)
 
 // how to sort order arry 
-var p = [ 'anik', 'hasan', 'ahmed', 'runa', 'my', 'love'];
+var p = [ 'anik', 'hasan', 'ahmed', 'runa', 'my', 'cousin'];
 var s =p.sort();
 
 // how to revarse a sort order arry 
-var aa = [ 'ahmed', 'anik', 'hasan', 'love', 'my', 'runa' ];
+var aa = [ 'ahmed', 'anik', 'hasan', 'cousin', 'my', 'runa' ];
 var bb = aa.reverse();
 console.log(bb)
 
 
 // how to revarse a sort order arry 
-var aa = [ 'ahmed', 'anik', 'hasan', 'love', 'my', 'runa' ];
+var aa = [ 'ahmed', 'anik', 'hasan', 'cousin', 'my', 'runa' ];
 var bb = aa.reverse();
 console.log(bb)
