@@ -2,8 +2,8 @@
 //Class is a templete for creating objects. its like a blueprint / map etc 
 //Class Name alwaysd will be capital.
 class Person {
-    constructor(fname, lname, birthday) {
-        this.firstname = fname;
+    constructor(fname, lname, birthday) { // constructor is a fuction to declear the object property 
+        this.firstname = fname; 
         this.lastname = lname;
         this.dob = birthday;
     }
