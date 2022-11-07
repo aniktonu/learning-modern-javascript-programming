@@ -17,7 +17,7 @@ class Person { // base class
 //inheritence for collect data from main class Person
 class Customer extends Person { // extends use  for inheritence all prperty, method of main class in subclass
     constructor(fname, lname, dob, phone, memberShip) {
-        super(fname, lname, dob); //super use for link the constructor(perperty) of anothr class
+        super(fname, lname, dob); //super() function use for link the constructor(perperty) of anothr class
         this.phone = phone;
         this.memberShip = memberShip;
     }
