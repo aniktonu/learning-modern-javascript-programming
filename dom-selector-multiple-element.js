@@ -1,3 +1,4 @@
+
 //Multiselector
 //document.getElementsByClassName('')
 
@@ -15,7 +16,7 @@ list = document.getElementsByTagName('li');
 // by using it we can call by any tag name, id , class 
 list = document.querySelector('ol').getElementsByTagName('li');
 
-/*note: if we create an array with getElementsByTagName() & querySelector() , then forEach function will not work & it will covert to array first .
+/*note: if we create an array with getElementsByTagName() & querySelector() , then forEach function will not work & it will need to covert in array first .
 example:
 
 list.forEach(function(iteam){
