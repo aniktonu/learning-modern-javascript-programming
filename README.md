@@ -12,3 +12,6 @@ Learning Modern JavaScript Programming (Topic Coverd)
 9. Functions
 10. Object Oriented Programming
 11. Document Object Model
+12.
+13. JavaScript Object Notation(JSON)
+14. Asynchronous JavaScript And XML(ajax)
