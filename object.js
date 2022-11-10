@@ -3,13 +3,6 @@ obejct in property is like(attribute in html)
 for object we use { }
 
 
-
-
-
-
-
-
-
 var student = {
     name: 'hello',
     age: 25,
