@@ -5,7 +5,7 @@
 // match() - Returns array or null
 // search() - Returns index of the first match or -1
 // replace() - Return new string
-
+//literal character 
 //literal character 
 let re = /hello/i;
 let str = "Hello World!";

@@ -1,5 +1,6 @@
 let re;
 let str;
+let strr;
 
 // Character Set using Brackets []
 re = /h[eai]llo/; // Must be one of them inside brackets

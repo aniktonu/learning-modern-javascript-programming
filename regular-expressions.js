@@ -2,6 +2,7 @@
 // Pattern Matching Technique
 let re;
 let str;
+let strr;
 
 re = /hello/;
 re = /hello/i // i = case incensetive
