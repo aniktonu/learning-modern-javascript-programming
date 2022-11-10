@@ -1,22 +1,12 @@
-object work with  property 
-obejct in property is like(attribute in html)
-for object we use { }
-
-
-
-
-
-
-
-
+// object work with  property 
+// obejct in property is like(attribute in html)
+// for object we use { }
 
 var student = {
     name: 'hello',
     age: 25,
     phone: '019213646',
 }
-
-
 
 // call a property of obejct in two ways 
 student.age
@@ -35,8 +25,6 @@ delete student.Meritial
 var teacher = {}
 
 teacher.name = "Jitu Bhaiya"
-
-
 
 console.log(student.age)
 console.log(student["age"])
