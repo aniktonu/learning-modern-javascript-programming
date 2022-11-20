@@ -18,3 +18,4 @@ function display({ firstName, lastName, age }) { // carly brase must need to use
     console.log(firstName, lastName, age);
 }
 display(person);
+// console.log(person
