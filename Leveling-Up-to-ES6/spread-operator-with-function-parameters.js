@@ -10,3 +10,4 @@ let test = (fname, lname) => {
     console.log(`${fname} ${lname}`);
 }
 test(...person);
+// console.log(person)
