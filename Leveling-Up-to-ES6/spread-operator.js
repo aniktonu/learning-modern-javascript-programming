@@ -14,7 +14,7 @@ let newArr = [...food1, food3, ...food2,];
 console.log(newArr);
 
 // spread opertaor in object
-//spread on object (es8)
+//spread on object (ES8)
 
 let person = {
     name: "anika",
