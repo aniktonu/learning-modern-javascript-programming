@@ -1,15 +1,29 @@
-//rest operator in array
-let fruits = ["apple", "orange", "pinaple", "peach", "grape"];
-let [one, three, ...two] = fruits;
+// Rest Operator ...
 
-console.log(two);
+let fruits = ['apple', 'grape', 'mango', 'jackfruit'];
+let [first, second, ...third] = fruits
 
-//rest operator in object
+// console.log(first);
+// console.log(second);
+// console.log(third);
+
 let person = {
-    fname: "anika",
-    lname: "tasnim",
-    dob: "12-12-95",
-    email: "anika.tasnim@gmail.com",
+    fname: "Simanta",
+    lname: "Paul",
+    dob: "8-26-1995"
 }
-let {fname, dob,...lname} = person;
-console.log(lname);
+
+let {fname, ...lname} = person
+
+// console.log(fname);
+// console.log(lname);
+
+let moreNum = [78,1,2,5,6];
+
+let test =(name, ...numbers) => { // Rest
+    console.log(name);
+    console.log(numbers);
+}
+
+test("Simanta", 67,3,3);
+test("Simanta", ...moreNum); // Spread
